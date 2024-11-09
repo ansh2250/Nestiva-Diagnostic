@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+:root{
+    --primary-color:#006064;
+    --secondry-color:#E14C4D;
+    --orange:#F38A3C;
+    --white:#fff;
+    --black:#000;
+}
+
+ h3{
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+p{
+    font-family: lato;
+    font-size: 16px;
+    text-align:justify;
+  }
+
+  /* baack to top button */
+
+  /* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* Hidden by default */
+  background-color: #01A79D; /* Button background color */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px; /* Center icon vertically */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it's on top of other content */
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.back-to-top img {
+  width: 24px; /* Adjust icon size */
+  height: auto;
+  vertical-align: middle;
+}
+
+.back-to-top:hover {
+  background-color: #017973; /* Darker color on hover */
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+}
